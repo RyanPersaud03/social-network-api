@@ -87,12 +87,12 @@ const thoughtController = {
 
             // Check if the thought is not found, and return a 404 status with an appropriate message
             if (!thought) {
-                return res.status(404).json({ message: "No thought with that ID" });
+                return res.status(404).json({ message: "No thought with that ID was found" });
             }
 
             // Respond with a 200 status and a success message indicating the thought and associated reactions were deleted
             res.status(200).json({
-                message: "Thought & associated reactions successfully deleted",
+                message: "Thought & reactions successfully deleted",
             });
         } catch (err) {
             // Handle errors by logging them and responding with a 500 status and an error message
@@ -112,7 +112,7 @@ const thoughtController = {
 
             // Check if the thought is not found, and return a 404 status with an appropriate message
             if (!reaction) {
-                return res.status(404).json({ message: "Cannot find thought" });
+                return res.status(404).json({ message: "Unable to find thought" });
             }
 
             // Respond with a 200 status and the updated thought (now including the new reaction) in JSON format

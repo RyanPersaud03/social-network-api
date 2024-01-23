@@ -3,8 +3,8 @@ const router = require("express").Router();
 
 // Import functions from thoughtController.js
 const {
-    getThoughts,
     getThought,
+    getThoughts,
     createThought,
     updateThought,
     deleteThought,

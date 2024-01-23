@@ -8,7 +8,7 @@ const apiRoutes = require("./api");
 router.use("/api", apiRoutes);
 
 // Middleware: Handle undefined routes by sending an error message
-router.use((req, res) => res.status(404).send("Wrong route!"));
+router.use((req, res) => res.status(404).send("Wrong route"));
 
 // Export the configured router
 module.exports = router;

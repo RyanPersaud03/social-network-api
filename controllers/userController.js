@@ -65,7 +65,7 @@ const userController = {
 
              // Check if the user is not found, and return a 404 status with an appropriate message
             if (!user) {
-                return res.status(404).json({ message: "No user with this ID" });
+                return res.status(404).json({ message: "No user with this ID was found" });
             }
 
             // Respond with a 200 status and the updated user in JSON format
@@ -83,7 +83,7 @@ const userController = {
 
              // Check if the user is not found, and return a 404 status with an appropriate message
             if (!user) {
-                return res.status(404).json({ message: "No user with that ID" });
+                return res.status(404).json({ message: "No user with that ID was found" });
             }
 
             // Delete all thoughts associated with the user
@@ -91,7 +91,7 @@ const userController = {
 
             // Respond with a 200 status and a success message indicating the user and associated thoughts and reactions were deleted
             res.status(200).json({
-                message: "User and associated thoughts and reactions deleted!",
+                message: "User & thoughts and reactions deleted!",
             });
         } catch (err) {
             console.error(err);

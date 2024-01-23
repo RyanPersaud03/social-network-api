@@ -8,8 +8,33 @@ const connection = require("../config/connection");
 // Seed Data
 const users = [
     {
-        username: "tom",
-        email: "tom@gmail.com",
+        username: "Morris",
+        email: "morris@gmail.com",
+        thought: [],
+    },
+    {
+        username: "Shiva",
+        email: "shiva@gmail.com",
+        thought: [],
+    },
+    {
+        username: "Winston",
+        email: "winston@gmail.com",
+        thought: [],
+    },
+    {
+        username: "Luna",
+        email: "winston@gmail.com",
+        thought: [],
+    },
+    {
+        username: "Rocky",
+        email: "rocky@gmail.com",
+        thought: [],
+    },
+    {
+        username: "Milo",
+        email: "milo@gmail.com",
         thought: [],
     },
 ];
