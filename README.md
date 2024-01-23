@@ -9,6 +9,10 @@
     "To utilize the functionality of the API routes, applications like Insomnia or Postman are essential. This is because the current implementation lacks a frontend interface. external tools such as Insomnia or Postman are necessary to interact with and test the API endpoints effectively.
 ## Usage
     This API serves as a fundamental component within a larger application that could incorporate a frontend. It is designed to be exspandable, allowing for further enhancements and features. The core functionality of this social network API enables users to connect with each other, establish friendships, and interact through various reactions.
+## Screenshot
+![Social-Network-API](./screenshot/social-api.png)
+## Demo Video Link
+https://drive.google.com/file/d/1gJNgHAy6JOw7mfto1phN4SOlIO-uXKvi/view?usp=drive_link
 ## Test
     N/A
 ## Credits
